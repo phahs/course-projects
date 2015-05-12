@@ -1,1 +1,17 @@
-blinn
+blinn_phong.frag.glsl - A given fragment shader that uses the blinn-phong illumination model
+blinn_phong.vert.glsl - A given vertex shader that uses the blinn-phong illumination model
+GLSLShader.h - Specifies classes for the vertex and fragment shaders
+glut_teapot.cpp - Holds the vertice information for the teapot and initializes two functions
+glut_teapot.h - Specifies two functions to create the teapot
+golden.frag - A given fragment shader to shade a model with a golden colour
+golden.vert - A given vertex shader to shade a model with a golden colour
+gouraud.frag - A given fragment shader that uses the gouraud illumination model
+gouraud.vert - A given vertex shader that uses the gouraud illumination model
+mine.frag - A fragment shader I made using the blinn illumination model
+mine.vert - A vertex shader I made using the blinn illumination model
+myGouraud.frag - A fragment shader I made using the gouraud illumination model
+myGouraud.vert - A vertex shader I made using the gouraud illumination model
+README.txt - Summarizes what about the progam works and what does not work
+transformations.cpp - Initializes functions for transforming the camera
+transformations.h - Specifies functions for transforming the camera
+two_shaders_glut.cpp - The main file that runs the program
