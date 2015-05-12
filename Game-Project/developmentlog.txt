@@ -1,0 +1,1064 @@
+Banana Cannon Commando
+=======================
+* Philip Hahs <phil.hahs@gmail.com>
+* Ken Haney <kenbob.21@csu.fullerton.edu>
+
+2015-04-27
+=======================
+
+Last Week's Objectives
+-----------------------
+* [Completed] Edit the enemy counting script 10h (8h)
+  > Edited the counting script to count the individual enemies on the map 
+  > including the boss. 
+  > Ken Haney
+
+* [Ongoing] Fix town portals 10h (6h)
+  > Still have not figured out how to fix the town portals so they stop 
+  > porting to two different locations. Cannot make it so they port back 
+  > to where the player left the town map.
+  > Ken Haney
+
+* [Completed] Fix the boss room 1h (1h)
+  > Added box colliders to all the objects in the boss room so the bosses cannot 
+  > shoot or melee between them.
+  > Ken Haney
+
+* [Completed] Weekly player and map bug testing 10h (8h)
+  > Fixed the boss room shooting between boxes glitch. Town portals are still bugging. 
+  > Fixed door portal bugs that happened on entering the levels. Need to fix and 
+  > resize the banana cannon commando and his camera so they all match again. Fixed 
+  > devlog errors, and the header glitch that happened again after pushing and 
+  > pulling process bugs it.
+  > Ken Haney
+
+* [Completed] Artwork 16h (14h)
+  > Finished the Banana Cannon Commando for all weapon attachments. Finished
+  > Dr. Rotten. All character artwork is done!
+  > Philip Hahs
+
+* [Ongoing] Misc. coding and bug fixing 2h (1h)
+  > Ken found an issue with the Orple, where it wouldn't chase the player got
+  > got far enough away. I took a look and found that the problem was with the
+  > environment. The obstacles were not blocking the raycast that the Orple
+  > uses to determine if the player is in line of sight, and as the Orple's
+  > line of sight is almost as large as it's area of influence, it would not
+  > chase the player. Simply added a box collider to the obstacles and the
+  > Orple worked as intended.
+  > Philip Hahs
+
+This Week's Objectives
+-----------------------
+* Edit the enemy counter script for objct replacement 15h
+  > Edit the enemy counter script to remove, unlock, or unblock objects 
+  > when all the enemies are all dead. 
+  > Ken Haney
+
+* Improve town portals to port properly 15h
+  > Improve the town portals so they port the player in the right spot on town map.
+  > Ken Haney
+
+* Make a reference page 5h
+  > Document and reference all the objects that were used in the project that were 
+  > made by other various people not in the project.
+  > Ken Haney
+
+* Fianl tweaks 20h
+  > Modify and tweak any extra objects that need to be added or removed from the 
+  > final project folder.
+  > Ken Haney, Philip Hahs
+
+* Weekly player and map bug testing 10h
+  > Fix any issues in the levels that come up. Test for any new bugs, glitches, 
+  > and any new problems.
+  > Ken Haney
+
+* Modify all character animations and artwork 20h
+  > Modify and replace all sprites and animations for the enemies.
+  > Philip Hahs
+
+2015-04-20
+=======================
+
+Last Week's Objectives
+-----------------------
+* [Completed] Discuss and write up all the core goals for the week 3h (3h)
+  > Discussed the key things both of us have to get done for the week that are 
+  > vital to finishing the game by the deadline. Ken was scribe.
+  > Ken Haney, Philip Hahs
+
+* [Ongoing] Create map barriers and enemy counter script 20h (4h)
+  > Added in barriers to block the player from entering a new zone until he has   
+  > completed the level in the current town zone or level zone. Found a sample 
+  > counter script. Need to edit it so that it will count the enemies and remove 
+  > a barrier to the boss rooms when the player has killed a set number of enemies 
+  > in the level zone. Still have to figure out to remove a barrier after the player 
+  > has completed the current available level. This script will most likely not 
+  > spawn the gun mod they can obtain before or after fighting the bosses.
+  > Ken Haney
+
+* [Completed] Redesign the boss room and move the old one to supermarket level 10h (6h)
+  > The orchard boss room was moved to the supermarket level for the machomato boss. 
+  > The Orchard level has been made bigger and more open for the orple boss.  
+  > Ken Haney
+
+* [Completed] Add in and replace more objects and some enemy AI in the levels 18h (17h)
+  > Did not create a do not enter sign that will direct the player to a secret place 
+  > behind the buildings. Deciding to just have the boss drop it after death or have 
+  > it placed in the boss room. Replaced some of the apple enemies in the orchard level 
+  > with orange enemies, added tomatoes in the supermarket. Added in the bosses for 
+  > the first two levels. Need to add them for the third level, but still having 
+  > problems getting the first boss to move. Replaced the storage racks in the back 
+  > of the supermarket level to reduce slight lag in the level. Did not change the 
+  > microwave model to be bigger and act as either a torture device or a cage cell 
+  > in the prison section of the castle level. I made my own prison cells instead. 
+  > Raised the castle inner walls so the enemies cant fire through them. Moved the 
+  > chairs around in the dining room of the castle level so they spin in funny 
+  > directions and float above the room.
+  > Ken Haney
+
+* [Ongoing] Improve town portals 8h (6h)
+  > Edited the portal script, but I still cannot get the portals to save the 
+  > player's position in the town. 
+  > Ken Haney
+
+* [Completed] Determine the hit points of enemy AI and player weapons 2h (2h)
+  > Made a chart to organize and determine the hit point values of each enemy 
+  > and the player weapons for damage receieved and damage given. Edited the 
+  > enemy health script to fit the values.
+  > Ken Haney
+
+* [Completed] Weekly player and map bug testing 10h (7h)
+  > Fixed lag issues in second level. Still working on bug for portals to town. 
+  > Need to fix the boss room so the boss cannot shoot through boxes.
+  > Ken Haney
+
+* [Ongoing] Artwork 30h (23h)
+  > Due to overestimation in my ability to finish assignments in my other
+  > classes, I was not able to finish all of the Banana Cannon Commando. I have
+  > two more angles to draw and need get the cannon drawn in the 8 different
+  > angles. As the BCCom is not done I have also not started on Dr. Rotten.
+  > Philip Hahs
+
+* [Ongoing] Miscellaneous coding 2h (1h)
+  > The Orple code and the MachoMato code has been modified to reflect their
+  > new  attack styles. The Orple has an extended range for being able to throw
+  > projectiles, and will switch between both the orange projectile and the
+  > apple projectile dependant on how close the player is to the Orple. The
+  > MachoMato will now do a charging punch against the player, rather than
+  > constantly chasing the player trying to punch him like the other tomatoes.
+  > Player save state has been improved so that the attachment that is being
+  > used when the player leaves a level is maintained on the loaded level.
+  > Philip Hahs
+
+This Week's Objectives
+-----------------------
+* Edit the enemy counting script for counting enemies 10h
+  > Edit the counting script to count the individual enemies on the map including the boss. 
+  > Ken Haney
+
+* Fix town portals 10h
+  > Fix the town portals so they stop porting to two different locations. Make 
+  > it so they port back to where the player left the town map.
+  > Ken Haney
+
+* Fix the boss room 1h
+  > Add box colliders to all the objects in the boss room so the bosses cannot 
+  > shoot or melee between them.
+  > Ken Haney
+
+* Weekly player and map bug testing 10h
+  > Fix any issues in the levels that come up. Test for any new bugs, glitches, 
+  > and any new problems.
+  > Ken Haney
+
+* Artwork 16h
+  > Finish the Banana Cannon Commando for all weapon attachments. Finish Dr. Rotten.
+  > Philip Hahs
+
+* Misc. coding and bug fixing 2h
+  > Fix any problem Ken may encounter while dealing with the world.
+  > Philip Hahs
+
+2015-04-13
+=======================
+
+Last Week's Objectives
+-----------------------
+* [Completed] Add in new 3D objects to the maps 5h (8h)
+  > Added in the new shelves for second level, and made apple babies for the 
+  > trees in the first level. I made doors for the fruitopia town level, however, 
+  > they were all deleted in the process of pushing and pulling. The only doors 
+  > that are still up are in the castle level. I do not know how to get them back. 
+  > I reskinned the castle map with the fruit image, skinned the throne, and 
+  > skinned the shelves in supermarket.
+  > Ken Haney
+
+* [Completed] Research and obtain more 3D models for maps 10h (10h)
+  > Found more 3D models and textures to replace the object place holders for 
+  > each of the levels. These new models include buildings, an eye ball, and 
+  > orange cones that may be useful for blocking off areas of the town. Designed 
+  > the basic models for the shelves. Designed basic hedges, bushes, and side 
+  > walk paths for the park level.
+  > Ken Haney
+
+* [Completed] Build the vegetable garden level into a park 10h (9h)
+  > Added in objects for map design to change the garden level into a park 
+  > that will now act as a treasure trove of ammo and health packs that will be 
+  > guarded by either a small group of enemies and one previous boss or both 
+  > bosses from the first two levels. It will depend largely on how difficult 
+  > it is to beat two bosses at the same time. This place may still act as the 
+  > main menu backround screen. The level polishing will probably be kept simple 
+  > and open so I can focus on other levels more.
+  > Ken Haney
+
+* [Ongoing] Research and implement improved level portals and warp portals 12h (10h)
+  > Made a script that warped the player successfully from one spot to the 
+  > other. The problem was that I could not get the player to warp through 
+  > walls using the jump mechanic for the warp portals. Philip Hahs remade 
+  > the script to work with the nav-mesh he created better so the warp portals 
+  > work now. I can warp to and from the main orchard map to the boss room. I 
+  > will have to implement this in the castle level. For the main town portals 
+  > switching between levels, I have only got the pseudo code and construct down 
+  > of how I want to implement the code so the player ends up where he was when 
+  > he left the town map. 
+  > Ken Haney
+
+* [Completed] Weekly player and map bug testing 10h (7h)
+  > Philip had problems running and shooting at the same down when moving 
+  > up or down on his game. I did not have this problem, and believe it 
+  > does not need to be fixed unless the problem continues on his machine. 
+  > I have noticed that I cannot fire diagonally without holding down two 
+  > directional buttons, otherwise it will switch back to non-diagonal 
+  > direction shooting. I play tested Philip's villager movements, and found 
+  > they move backwards too often and also collide with buildings and each 
+  > other so that they occupy the same space. Philip has fixed the collision 
+  > issues already. I lost all my doors in the town map that i placed on most 
+  > of the houses due to pushing and pulling unkown errors. I will have to redo 
+  > all the doors in the town map. I would like to figure out an alternative to 
+  > fix my warp portals that will not port through static objects, but there is 
+  > no time for that and it is working with Philip's nav-mesh method.
+  > Ken Haney
+
+* [Completed] NPC Character Art 30h (22h)
+  > Finished the tomato, grape and watermelon sprite sheets. Started coding a 
+  > way to change the sprites based on what direction they are moving.
+  > Philip Hahs
+
+This Week's Objectives
+-----------------------
+* Discuss and write up all the core goals for the week 3h
+  > Discuss the key things both of us have to get done for the week that are 
+  > vital to finishing the game by the deadline. Ken will be scribe.
+  > Ken Haney, Philip Hahs
+
+* Create map barriers and enemy counter script 20h
+  > Add in barriers to block the player from entering a new zone until he has   
+  > completed the level in the current town zone or level zone. Make a counter 
+  > script that will remove a barrier to the boss rooms when the player has 
+  > killed a set number of enemies in the level zone. This script should also 
+  > remove a barrier after the player has completed the current available level. 
+  > This script may also spawn the gun mod they can obtain before or after 
+  > fighting the bosses.
+  > Ken Haney
+
+* Redesign the boss room and move the old one to supermarket level 10h
+  > The current boss room in the orchard level will be prefabbed and moved to 
+  > the supermarket level, because it's tight spaced zone is better suited for 
+  > the machomato boss that we decided to have in the second level. The new boss 
+  > room in the orchard will be made bigger and more open spaced for the long 
+  > ranged attack from the orple boss that is a half orange half apple frombie. 
+  > Ken Haney
+
+* Add in and replace more objects and some enemy AI in the levels 18h
+  > Create a do not enter sign that will direct the player to a secret place 
+  > behind the buildings to what will most likely be the pellot gun mod. Replace 
+  > some of the apple enemies in the orchard level with orange enemies and maybe 
+  > one or two other enemies. Add in the bosses for the first two levels and 
+  > maybe the third level. Consider replacing the storage racks in the back of 
+  > the supermarket level to reduce slight lag in the level. Change the microwave 
+  > model to be bigger and act as either a torture device or a cage cell in the 
+  > prison section of the castle level. Raise the castle inner walls so the 
+  > enemies cant fire through them. Move the chairs around in the dining room 
+  > of the castle level so they spin in funny directions and float above the room.
+  > Ken Haney
+
+* Improve town portals 8h
+  > Edit the portal script so the town portals will save the player's position 
+  > when he enters and leaves a specific level so he pops out from the map he 
+  > entered when he left that map.
+  > Ken Haney
+
+* Determine the hit points of enemy AI and player weapons 2h
+  > Make a chart or two to organize and determine the hit point values of each 
+  > enemy and the player weapons for damage receieved and damage given.
+  > Ken Haney
+
+* Weekly player and map bug testing 10h
+  > Fix any issues in the levels that come up. Test for any new bugs, glitches, 
+  > and any new problems.
+  > Ken Haney
+
+* Artwork 30h
+  > Finish Banana Cannon Commando artwork. Start on Dr. Rotten's artwork.
+  > Philip Hahs
+
+* Miscellaneous coding 2h
+  > Fix any small bugs that Ken finds, improve the player save states so that
+  > when the player leaves a "level" they will load in at the entrance to the
+  > level. Update bosses AI to reflect the combat changes we have decided
+  > to make for them.
+  > Philip Hahs
+
+2015-04-06
+=======================
+
+Last Week's Objectives
+-----------------------
+* [Completed] Plot out all the final goals 2h (1h)
+  > Made a list of all the things I absolutely have to have done before 
+  > the due date that include things like character spawns, and save states.
+  > Ken Haney
+
+* [Ongoing] Research and obtain more 3D models for maps 20h (18h)
+  > Found more 3D models to replace the object place holders for each of 
+  > the levels. Designed some basic models to be replaced in the supermarket
+  > and the castle level.
+  > Ken Haney
+
+* [Completed] Player and map bug testing 20h (15h)
+  > Fixed the lag in second level. Tested for any new bugs and problems. Did 
+  > not find any more problems.
+  > Ken Haney
+
+* [Ongoing] Player Character Art 9h (2h)
+  > I'm rather dissapointed here, as I did not set aside time to work
+  > on this part over the week and weekend. I was more concerned with
+  > completeing the basic NPC's and getting them working as far as
+  > sprite switching is concerned. What I did take the time to do was
+  > sketch the cannon that is apart of the BCCom.
+  > Philip Hahs
+
+* [Ongoing] NPC Character Art 9h (15h)
+  > Finished the Orange and the Apple sprite sheets. I have started
+  > the tomatoes sprite sheet, but it is only about a quarter done.
+  > This took much longer than anticipated because I switched from
+  > hand drawing the characters to using SketchBook Pro to draw the
+  > sketches, and had some learning curve time in using that. Also,
+  > I needed to take the sketches and create the sprites using
+  > Inkscape, which also had a learning curve.
+  > Philip Hahs
+
+* [Ongoing] Find Game Music 5h (1.25h)
+  > Found a handful of compositions that have many different tones
+  > spread through out each piece. The pieces that I have gathered
+  > are: Toccatta and Fugue in D minor, Moonlight Sonata, Maple
+  > Leaf Rag, and Night on Bald Mountain. The Maple Leaf Rag, as
+  > it is upbeat and bouncy will likely be used for the main theme
+  > of Fruitopia. Parts of Night on Bald Mountain will likely be
+  > put into the Fruitcake Castle and the Orchard. The Toccatta
+  > and the Moonlight Sonata will possibly be used in boss fights,
+  > or spliced into other zones. I am not sure what to do for the
+  > Philip Hahs
+
+This Week's Objectives
+-----------------------
+* Add in new 3D objects to the maps 5h
+  > Add in the new shelves for second level, apple babies for the trees in 
+  > the first level, and make doors for the fruitopia town level. Also add 
+  > in any other objects that would make the environment more detailed.
+  > Ken Haney
+
+* Research and obtain more 3D models for maps 10h
+  > Find more 3D models and textures to replace the object place holders for 
+  > each of the levels. Design more basic models to replace object as needed.
+  > Ken Haney
+
+* Build the vegetable garden level into a park 10h
+  > Add in objects for map design to change the garden level into a park that 
+  > will act as the menu backround so I can focus on polishing the other levels.
+  > Ken Haney
+
+* Research and implement improved level portals and warp portals 12h
+  > Find, draft, and edit script code for warp portls, and edit code for town   
+  > portals so they pop the player out where he entered. Apply them to 
+  > the maps for the boss zone in the orchard level and the castle level.
+  > Ken Haney
+
+* Weekly player and map bug testing 10h
+  > Fix any issues in the levels that come up. Test for any new bugs, glitches, 
+  > and problems.
+  > Ken Haney
+
+* NPC Character Art 30h
+  > Get the tomato, grape and watermelon sprite sheets finished. Once they are
+  > done start coding a way to change the sprite based on what direction they
+  > are moving.
+  > Philip Hahs
+
+2015-03-30
+=======================
+
+Last Week's Objectives
+-----------------------
+* [Ongoing] Research and obtain 3D models for maps 20h (17h)
+  > Found some 3D models to replace the object place holders for each of 
+  > the levels. Need to find a new fridge model since the other one has 
+  > lighting issues.
+  > Ken Haney
+
+* [Completed] Player and map bug testing 10h (12h)
+  > Tested for problems and found that there is a lag issue in the 
+  > supermarketmost likely due to objects placed in the second level.
+  > Ken Haney
+
+* [Ongoing] Player Character Art 2h (1h)
+  > Finalized cannon that the Banana Cannon Commando will use.
+  > Philip Hahs
+
+* [Ongoing] NPC Character Art 4h (1.5h)
+  > Finished redrawing the NPCs. Need to create sprite sheets for
+  > the NPCs. Will have 2 different types of sprite sheets. One
+  > will be for friendly NPCs and will have 8 static images for
+  > the 8 major directions. The other will be broken down into
+  > components so that animating them for attacks will be easier.
+  > Philip Hahs
+
+* [Changed] Create Game Music 7h (2h)
+  > As per the suggestion of Prof. Shafae, I am no longer going
+  > to be writing the game music from scratch, but will be using
+  > music from the public domain.
+  > Philip Hahs
+
+This Week's Objectives
+-----------------------
+* Plot out all the final goals 2h
+  > Make a list of all the things I absolutely have to have done before 
+  > the due date.
+  > Ken Haney
+
+* Research and obtain more 3D models for maps 20h
+  > Find more 3D models to replace the object place holders for each of 
+  > the levels.
+  > Ken Haney
+
+* Player and map bug testing 20h
+  > Fix the lag in second level from 3D objects presumably. Test for 
+  > any new bugs and problems.
+  > Ken Haney
+
+* Player Character Art 9h
+  > Draw the new Banana Cannon Commando, with cannon, from the 8
+  > different angles that the character is able to face. Then upload
+  > them and use them with the Unity animator.
+  > Philip Hahs
+
+* NPC Character Art 9h
+  > Draw as many of the characters as possible in sprite format to
+  > prepare for putting the characters into the game. Finalize Boss
+  > concept art with Ken.
+  > Philip Hahs
+
+* Find Game Music 5h
+  > Use youtube to find public domain music and listen through it to
+  > determine if and where it could be used in the game. Download said
+  > music and begin editing the parts of the music that fit well with
+  > the game.
+  > Philip Hahs
+
+2015-03-23
+=======================
+
+Last Week's Objectives
+-----------------------
+* [Completed] Fix town portals 10h (8h)
+  > Fixed the town portals so that they all go to each level. Created 
+  > return portals for the first two levels. Need to build check points
+  > so the player returns exactly outside in town where they entered.
+  > Ken Haney
+
+* [Completed] Edit Final level design 5h (5h)
+  > Reshaped the rooms, added in the extra rooms and altered the objects.
+  > Ken Haney
+
+* [Completed] Player and map bug testing 10h (10h)
+  > Tested the new barriers for the maps. Everything seems to be working.
+  > Ken Haney
+
+* [Ongoing] Player Character Art 5h (2h)
+  > Created a new cartoonish Banana Cannon Commando, but have not
+  > decided on what the cannon will look like. Only have a single
+  > image and need to finalize with Ken.
+  > Philip Hahs
+
+* [Ongoing] NPC Character Art 7h (3h)
+  > Created new cartoonish NPC's. Only have one image for each NPC.
+  > Will finalize concept with Ken.
+  > Philip Hahs
+
+* [Ongoing] Create Game Music 13h (6h)
+  > Finished writing the theme music for Fruitopia, and am partway
+  > through with the theme for the Fruitcake Castle.
+  > Philip Hahs
+
+This Week's Objectives
+-----------------------
+* Research and obtain 3D models for maps 20h
+  > Find 3D models to replace the object place holders for each of 
+  > the levels.
+  > Ken Haney
+
+* Player and map bug testing 10h
+  > Test for any bugs or glitches and fix the errors the player 
+  > would encounter. Fix all the bugs I found Monday.
+  > Ken Haney
+
+* Player Character Art 2h
+  > Finalize what the cannon will look like so that I can start
+  > drawing the Banana Cannon Commando in earnest.
+  > Philip Hahs
+
+* NPC Character Art 4h
+  > Need to decide on the expressions for the NPCs for both the 
+  > friendly and the enemy versions. Will likely redrawn each
+  > image so it is as symmetrical as possible.
+  > Philip Hahs
+
+* Create Game Music 7h
+  > Finish the Fruitcake Castle theme. Write the themes for the
+  > Orchard, Supermarket, and Vegetable Garden levels.
+  > Philip Hahs
+
+2015-03-16
+=======================
+
+Last Week's Objectives
+-----------------------
+* [Ongoing] Create town portals for each level 10h (12h)
+  > Connected each scene with a basic script to the main town level.
+  > Ken Haney
+
+* [Completed] Tweak any map objects that were discussed 15h (16h)
+  > Moved and tweaked all the enemy AI and buildings. NPCs did not 
+  > need to be moved. Did not add in item pickups, because the player
+  > I have not tested the ammo rate to kill all enemies so they may 
+  > not be needed. Added more content to the final level such as a 
+  > lab room. Resized all rooms in final level so they are not all 
+  > the same size and feel more open spaced.
+  > Ken Haney
+
+* [Completed] Set up the AI patrol pathing 12h (12h)
+  > Inserted all the patrol nodes for each enemy in all the levels.
+  > I chose to leave some of them standing still. Did not insert patrol 
+  > nodes for NPCs to walk around in town, because of villagers town script.
+  > Ken Haney
+
+* [Completed] Player and map bug testing 10h (8h)
+  > Tested for any bugs or glitches and fix the errors the player 
+  > would encounter. Did not find any bugs to fix. 
+  > Ken Haney
+
+* [Ongoing] Code Debugging 10h (5h)
+  > Fixed a damage bug where the aoe zone that is created by the
+  > Egg Splode Mod would damage enemies that were outside of the
+  > zones' collider. This was due to the the enemies having a
+  > large Sphere Collider for player detection. Fixed the issue by
+  > having the sphere do a check if the enemies Capsule Collider
+  > and the zones' Sphere Collider intersect.
+  > Philip Hahs
+
+* [Ongoing] Code Streamlineing 15h (3h)
+  > Modified the Player Controller script so that the controls are
+  > a bit simpler. The keys WASD now only control the direction
+  > the player is facing and the arrow keys control the movement
+  > of the player. Before both the way the player was facing and
+  > the direction the player was moving was controlled by WASD.
+  > Philip Hahs
+
+This Week's Objectives
+-----------------------
+* Fix town portals 10h
+  > The town portals were working and then I pulled the new scripts 
+  > and I forgot to make a new build save in a separate folder. The 
+  > last version I had was too old. I also need to modify the portals 
+  > so they port the player when they move into the portal zone instead 
+  > of pressing a button.
+  > Ken Haney
+
+* Edit Final level design 5h
+  > Add more stuff to the final level. Reshape the rooms again so the 
+  > hall is bigger. 
+  > Ken Haney
+
+* Player and map bug testing 10h
+  > Test for any bugs or glitches and fix the errors the player 
+  > would encounter. Fix all the bugs I found Monday.
+  > Ken Haney
+
+* Player Character Art 5h
+  > Going to attempt to redesign the Banana Cannon Commando to be
+  > more cartoonish and less realistic.
+  > Philip Hahs
+
+* NPC Character Art 7h
+  > Going to attempt to redesign all of the NPCs to match the new
+  > design of the Banana Cannon Commando.
+  > Philip Hahs
+
+* Create Game Music 13h
+  > Going to write the themes for the five distinct levels. Will be
+  > sharing how the themes go with Ken to find the right musical tone
+  > for the levels he has built.
+  > Philip Hahs
+
+2015-03-09
+=======================
+
+Last Week's Objectives
+-----------------------
+* [Completed] Map basic 3D objects in all levels 20h (20h)
+  > Finished the new town design so it is smaller but more open and 
+  > spread out. Each level is set to side more off the path from the 
+  > mini town districts. Placed basic enemy AI in each level except 
+  > the The Vegetable Garden level, because they will most likely be 
+  > generated randomly. Left open spaces in 2 levels for bosses that 
+  > we would like to do. New AI will be added later and replaced as 
+  > they are being built. Item pickups have not been placed in the map 
+  > yet, because they will more likely be droppped from enemies. 
+  > Ken Haney
+
+* [Completed] Map level bug testing 10h (8h)
+  > Tested for any bugs or glitches and fix the errors. Fix all the
+  > bugs and glitches found the previous week.Tested all the corners
+  > and map walls for the player to escape through. There have been no
+  > complications with the invisible walls so far.
+  > Ken Haney
+
+* [Ongoing] Code Debugging 10h (6h)
+  > Fixed an AI bug where the enemy would get stuck moving into
+  > attack range and moving toward the player. This was do to the
+  > raycast swapping between the player character and another enemy
+  > in the scene. This was fixed with all enemies ignoring raycast.
+  > Fixed bug where when the player gets to close to the enemy, the
+  > enemy would stop reacting. This was fixed by placing the 
+  > CalculatePath fuction as an if statement with the SetPath function
+  > inside of it.
+  > Fixed bug that would not update the totals for player health and
+  > ammo. This was due to placement of a GetComponent call.
+  > Fixed bug that would not update the items available for drop off
+  > of defeated enemies to reflect what weapon attachments the player
+  > has picked up. This was due to placement of a GetComponent call.
+  > Philip Hahs
+
+* [Ongoing] Code streamlineing 15h (10h)
+  > Combined the 2 player scripts, PlayerCharacter and
+  > PlayerMovement into a single script, PlayerController.
+  > The PlayerController script controls all button presses
+  > of the player.
+  > Combined 2 of the enemy scripts, BasicEnemyCharacter and
+  > (specific enemy name)AI, into just the (specific enemy
+  > name)AI. The AI now controls everything about the enemy,
+  > from attacking the player to patrolling an area. Created
+  > and EnemyHealth script that consolidates all of the enemies
+  > health totals into a single script.
+  > Philip Hahs
+
+This Week's Objectives
+-----------------------
+* Create town portals for each level 10h
+  > Connect each scene with a basic script to the main town level.
+  > Ken Haney
+
+* Tweak any map objects that were discussed 15h
+  > Move and tweak all the enemy AI, town NPCs, and buildings.
+  > Add in item pickups for each level if needed. Add more content 
+  > to the final level such as a lab room. Resize all rooms in final 
+  > level so they are not all the same size and feel more open spaced.
+  > Ken Haney
+
+* Set up the AI patrol pathing 12h
+  > Insert all the patrol nodes for each enemy in all the levels.
+  > Insert some patrol nodes for NPCs to walk around in town for 
+  > smaller pathing.
+  > Ken Haney
+
+* Player and map bug testing 10h
+  > Test for any bugs or glitches and fix the errors the player 
+  > would encounter. Fix all the bugs and glitches found the 
+  > previous week. 
+  > Ken Haney
+
+* Code Debugging 10h
+  > Test code interactions to find any bugs. Fix them.
+  > Philip Hahs
+
+* Code streamlineing 15h
+  > Examine current code and determine if it can be easily
+  > shortened and made more efficient by either combining
+  > scripts or shortening the number of lines.
+  > Philip Hahs
+
+2015-03-02
+=======================
+
+Last Week's Objectives
+-----------------------
+* [Completed] Game development meeting and discussion 3h (3h)
+  > Discussed the bug and glitch problems and in game objects we want 
+  > to add in the game. Decided to cut the dash move for the player
+  > 
+  > Ken Haney, Philip Hahs
+
+* [Ongoing] Map basic 3D objects in all levels 20h (15h)
+  > Still working on new town map design. I made the second level map 
+  > and the final level map, and added in player models and some enemy 
+  > models. May need to modify maps a bit to allow for more open enemy 
+  > movement around the map. 
+  > Ken Haney
+
+* [Completed] Map Testing for player character 10h (7h)
+  > Tested the game maps to find any glitches or bugs, and fix them.I 
+  > found spots the player can get out of the map or lift himself up 
+  > off the floor. Those were fixed for the first level. I also found 
+  > a crash bug between the player and the enemy units when the player 
+  > goes behind the enemy and collides the wrong way. Still have not 
+  > figured out how to fix that. 
+  > Ken Haney
+
+
+* [Ongoing] Specific Enemy AI Scripts 10h (4h)
+  > Get enemies to move around objects to keep players within sight
+  > while the player is still within their range.
+  > Philip Hahs
+
+* [Complete] Player movement 5h (3h)
+  > Finalize player movement controls.
+  > Add in aiming capabilities for player character.
+  > Philip Hahs
+
+* [Complete] Write simple User Interface script 1.5h (1h)
+  > Add a "Controls" button.
+  > Will have the button controls for the player.
+  > Philip Hahs
+
+This Week's Objectives
+-----------------------
+* Map basic 3D objects in all levels 20h
+  > Finish new town design. Set up enemy AI better in each level. 
+  > Add in item pickups for each level. 
+  > Ken Haney
+
+* Map level bug testing 10h
+  > Test for any bugs or glitches and fix the errors. Fix all the
+  > bugs and glitches found the previous week.
+  > Ken Haney
+
+* Code Debugging 10h
+  > Test code interactions to find any bugs. Fix them.
+  > Philip Hahs
+
+* Code streamlineing 15h
+  > Examine current code and determine if it can be easily
+  > shortened and made more efficient by either combining
+  > scripts or shortening the number of lines.
+  > Philip Hahs
+
+2015-02-23
+=======================
+
+Last Week's Objectives
+-----------------------
+* [Ongoing] Map basic 3D objects in all levels 30h (15h)
+  > Rebuilt the main town and changed the environment so it will 
+  > be more open and linear. Still working on the last parts of the 
+  > town map. Did not build a mini boss room inside one of 
+  > the buildings in first level. Worked on building the second level 
+  > and the final castle level more. 
+  > Ken Haney
+
+* [Ongoing] Create town portals for each level 10h (1h)
+  > Edited basic script based off the scripts I found for switching 
+  > between levels. Still do not want to implement before maps are done.
+  > Ken Haney
+
+* [Ongoing] Specific Enemy AI Scripts 20h (8h)
+  > Worked through an issue with enemy directionality.
+  > Enemies will attack the player character while he is in range.
+  > Need to modify how enemies stay in range of the player character
+  > so that they will move around objects that block raycasting to a
+  > position that the raycast will properly hit the player.
+  > Philip Hahs
+  
+* [Complete] Create Simple Gameplay UI Scripts 3h (1.5h)
+  > Ammo and life counters are displayed. Goal was completed.
+  > However, this may come up again later if we want to make the ui more
+  > fancy.
+  > Philip Hahs
+
+* [Complete] Create Collectible Objects 10h (6h)
+  > Ammo, extra health/lives, and weapon attachment prefabs made.
+  > Player is able to move through the object and gain the benefit of the
+  > object.
+  > Object is destroyed when the player moves through the object.
+  > Philip Hahs
+
+This Week's Objectives
+-----------------------
+* Game development meeting and discussion 3h
+  > Discuss the problems and in game objects we want to add in the game
+  > such as player controls.
+  > Ken Haney, Philip Hahs
+
+* Map basic 3D objects in all levels 20h
+  > Finish testing new town map design, make second level map, make final 
+  > level map, and add in player models and enemy models.
+  > Ken Haney
+
+* Map Testing for player character 10h
+  > Test the game maps to find any glitches or bugs, and fix them.
+  > Ken Haney
+
+
+* Specific Enemy AI Scripts 10h
+  > Get enemies to move around objects to keep players within sight
+  > while the player is still within their range.
+  > Philip Hahs
+
+* Player movement 5h
+  > Finalize player movement controls.
+  > Add in aiming capabilities for player character.
+  > Philip Hahs
+
+* Write simple User Interface script 1.5h
+  > Add a "Controls" button.
+  > Will have the button controls for the player.
+  > Philip Hahs
+
+
+
+2015-02-16
+=======================
+
+Last Week's Objectives
+-----------------------
+* [Ongoing] Map basic 3D objects in all levels 30h (20h)
+  > Built the main town and decided to change the environment so it would 
+  > be more open and linear. Built the first level that still needs a mini 
+  > boss room inside one of the buildings. Built the 3rd level, which is 
+  > supposed to be a flat zone where enemies randomly spawn. Still working
+  > on the second level and the castle. 
+  > supposed to be a flat zone where enemiese randomly spawn. Still working
+  > on the second level and the castle.
+  > Ken Haney
+
+* [Ongoing] Create town portals for each level 10h (2h)
+  > Researched basic scripts for switching between level scenes. Cannot 
+  > connect the maps yet, because of changes to the town environment. 
+  > Ken Haney
+
+* [Ongoing] Write simple User Interface script 5h (1h)
+  > Looked at some old code that was used to create a start screen.
+  > Used that code to create the current start screen script.
+  > Has two buttons, one for a new game and one to quit.
+  > Philip Hahs
+
+* [Ongoing] Player movement 1h (1h)
+  > Player movement script working
+  > Not yet working as I desire
+  > Script seems to add speed to character when more than one button   
+  > is pressed
+  > Philip Hahs
+
+* [Changed/Complete] Build one enemy AI movement script 18h (8h)
+  > All enemy actors should move in the same way as it make things   
+  > All enemy actors should move in the same way as it make things
+  > All enemy actors should move in the same way as it make things 
+  > both easier to code and easier to implement
+  > Learned about the NavMeshAgent for enemy movement control
+  > Enemy AI actors are now able to patrol a predefined path
+  > They will stop moving when the player actor gets within range
+  > Philip Hahs
+
+
+This Week's Objectives
+-----------------------
+* Map basic 3D objects in all levels 30h
+  > Rebuild the main town and change the environment so it will 
+  > be more open and linear. Build a mini boss room inside one of 
+  > the buildings in first level. Continue building the second level 
+  > and the final castle level. 
+  > Ken Haney
+
+* Create town portals for each level 10h
+  > Design basic script based off the scripts I found for switching 
+  > between levels.
+  > Ken Haney
+
+* Specific Enemy AI Scripts 20h
+  > Code the ways that the enemies will attack the player character.
+  > Will use previously discussed enemy abilities.
+  > Will focus on the Apple and Orange enemies first, but will attempt 
+  > to get all enemy finished.
+  > Philip Hahs
+  
+* Create Simple Gameplay UI Scripts 3h
+  > Basic life counter displayed on screen.
+  > Basic ammo counters displayed on screen.
+  > Philip Hahs
+
+* Create Collectible Objects 10h
+  > Create the ammo pack prefab.
+  > Create the weapon attachments.
+  > Create the extra life prefab.
+  > Write a pick up script so that the object is "picked" up by the
+  > player when they get close enough.
+  > Philip Hahs
+
+2015-02-09
+=======================
+
+Last Week's Objectives
+-----------------------
+* [Completed]Discuss the fundamental game design objectives. 6h (6h)
+  > Discussed the basic game mechanics involved in the game. The game 
+  > will be a third person shooter. The player will have to navigate 
+  > through the map levels and shoot enemies. We also discussed adding 
+  > puzzle elements like switches. The player will use various gun types 
+  > to shoot the enemies.
+  > Discussed the enemy types and main bosses. We will have 5 basic 
+  > fruit zombie enemies called frombies. If we have time, we will 
+  > implement scaled up versions of some of the enemies and give them 
+  > more health, which will be mini bosses. The main bosses have not 
+  > been thouroughly discussed yet. 
+  > Discussed the weapons that will be used. We have decided on one 
+  > gun that can be modded four different ways. The main gun is called 
+  > the Herbi-Cannon. The three other weapon modes are called Pellot 
+  > Nozzle, Shotgun Rain, and The Egg Bomb.
+  > Discussed the artwork and backround scenery we want to implement 
+  > in the game's world.
+  > Discussed the item pickups like health packs and ammo. We decided 
+  > on fertilizer health packs. There will be various ammo drops, but 
+  > we have not decided if they spawn off enemies or not.
+  > Discussed basic story and catch phrases to include in the game.
+  > Ken Haney, Philip Hahs
+
+* [Completed]Write the game's design document based on the Gamasutra article by Tim Ryan 10h (6h)
+  > Introduced the basic game concept where you play as a banana cannon 
+  > commando fighting fruit zombies created by a mad scientist Dr. Rotten.
+  > Wrote up which design tools we will use to create the game including 
+  > Unity 3D engine using C# and JS scripts, Paint, Inkscape, and maybe 
+  > Photoshop. We have not decided what tool to use for music, however 
+  > it will be light hearted and fit the atmosphere in the world.
+  > Wrote a more in depth description of each level we will build. The  
+  > main hub level is a town called "Fruitopia". The levels in order 
+  > are called "The Orchard", "The Supermarket", "The Vegetable Garden", 
+  > and "The Giant Fruitcake Castle". Each level will be designed fairly 
+  > unique from each other in background and scenary. Listed the key 
+  > features that will be the core of the game in the design document.
+  > Listed the game's genre and platforms the game will run on in the 
+  > design document.
+  > Ken Haney
+
+* [Ongoing]Building the world. 16h (7h)
+  > Designed 2D map layouts for multiple levels on paper and some on 
+  > paint program.
+  > Started implementing basic background objects in the first level.
+  > Ken Haney
+
+* [Ongoing] Player character art. 12h (9.5h)
+  > Sketched the body and legs/pants of the BCCom after realizing that
+  > sketching the entire character would make some things more difficult.
+  > Did not move on to sketching the arms or face. Once all of the pieces
+  > have been made I will be putting them together as a single image.
+  > Have 8 angles on the body and legs/pants.
+  > Decided on the basic animations needed for the BCCom.
+  > Failed on collaboration to determine more specific animations.
+  > Philip Hahs
+
+* [Ongoing] Friendly NPC character art. 20h (3h)
+  > Sketched the body of all of the friendly NPC's. I realized that 4 angles 
+  > was pointless as most fruit are mostly symmetrical and all that   
+  > really mattered for perspective was the arms, legs and face placement.
+  > Realized that I only needed one set of arms, legs, and faces in order to 
+  > create all of the NPC's as the NPC's can share these "features".
+  > Philip Hahs
+
+* [Completed] Design player character abilities. 4h (2h)
+  > Listed the actions the character can take in BCC_DD text file.
+  > Colaborated with "Player character art".
+  > Ken Haney
+
+
+This Week's Objectives
+-----------------------
+* Map basic 3D objects in all levels. 30h
+  > Build and design the game world levels and surrounding environments
+  > using only basic objects as placeholders for the artwork based on the 
+  > 2D map designs.
+  > Ken Haney
+
+* Create town portals for each level. 10h
+  > Design a script for switching between level scenes.
+  > Connect the town to all the levels and back with portals.
+  > Ken Haney
+
+* Write basic game scripts. 24h
+  > Research and develop basic scripts for movement, animations, and AI.
+  > Philip Hahs
+
+* Write simple User Interface script 5h
+  > Write basic UI script for main menu.
+  > Philip Hahs
+
+* Design and test player movement. 1h
+  > Implement basic player movement in the game.
+  > Philip Hahs
+
+* Build five enemy AI movements. 18h
+  > Create basic AI movement for Oranges, Apples, Grapes, Watermelons, 
+  > and Tomatoes. Prioritize Oranges and Apples first.
+  > Philip Hahs
+
+2015-02-02
+=======================
+
+This Week's Objectives
+-----------------------
+* Discuss the fundamental game design objectives. 6h
+  > Discuss the basic game mechanics involved in the game. 
+  > Discuss the enemy types and main bosses. 
+  > Discuss the weapons that will be used.
+  > Discuss the artwork and backround scenery we want to implement in the 
+  > game's world.
+  > Discuss the item pickups like health packs and ammo.
+  > Discuss basic story and catch phrases to include in the game.
+  > Ken Haney, Philip Hahs
+
+* Write the game's design document based on the gamasutra article by Tim Ryan. 10h
+  > Introduce the basic game concept.
+  > Write up which design tools we will use to create the game. 
+  > Write a more in depth description of each level we will build.
+  > List the key features that will be the core of the game.
+  > List the game's genre and platforms the game will run on.
+  > Ken Haney
+
+* Building the world. 16h
+  > Design level layout for the main town hub level leading to the other levels.
+  > Design the 2D level layout for the 3 core levels of the game.
+  > Implement at least the town hub level in the Unity 3D engine.
+  > Ken Haney
+
+* Player character art. 12h
+  > Sketch player character from at least 8 angles.
+  > Decide what animations the player character will have.
+  > Will colaborate with "Design player character abilities".
+  > Philip Hahs
+
+* Friendly NPC character art. 20h
+  > Sketch all NPC characters from at least 4 different angles.
+  > Philip Hahs
+
+* Design player character abilities. 4h
+  > Actions the character can take.
+  > Will colaborate with "Player character art".
+  > Ken Haney

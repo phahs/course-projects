@@ -1,0 +1,28 @@
+ENEMY HP:
+Apple: 40 HP
+Orange: 50 HP
+Grape: 10 HP
+Tomato: 80 HP
+Watermelon: 100 HP
+Orple: 160 HP
+Machomato: 200 HP
+Dr. Rotten: 400 HP
+
+ENEMY HIT LIST:
+H: hits to kill enemy
+G1: BANNON GUN = 10 DMG
+G2: PELLOT GUN = 15 DMG
+G3: EGGSPLODE GUN = 20 DMG
+G4: SHOTGUN RAIN = 40 DMG
+
+ENEMY:			HP:					DMG to Player:
+Apple			G1: 4H, G2: 3H, G3: 2H, G4: 1H		8 DMG
+Orange			G1: 5H, G2: 4H, G3: 3H, G4: 2H		12 DMG
+Grape			G1: 1H, G2: 1H, G3: 1H, G4: 1H		20 DMG
+Tomato			G1: 8H, G2: 6H, G3: 4H, G4: 2H		25 DMG
+Watermelon		G1: 10H, G2: 7H, G3: 5H, G4: 3H		28 DMG
+
+BOSS:			HP:					DMG to Player:
+ORPLE			G1: 16H, G2: 11H, G3: 8H, G4: 4H	25 DMG
+MACHOMATO		G1: 20H, G2: 14H, G3: 10H, G4: 5H	30 DMG
+Dr. Rotten		G1: 40H, G2: 27H, G3: 20H, G4: 10H	35 DMG

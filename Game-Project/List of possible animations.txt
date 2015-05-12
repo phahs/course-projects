@@ -1,0 +1,15 @@
+Movement:
+-Walk/Run
+ -8 directions (left, right, forward, backward, and the diagonals between them)
+-Idle?
+-Blinking?
+
+BCCom Specific:
+-Swap cannon type
+-Reload?
+
+Friendly NPC Specific:
+-Idle?
+-Blinking?
+
+Enemy NPC Specific:

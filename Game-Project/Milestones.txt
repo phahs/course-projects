@@ -1,0 +1,8 @@
+Overall milestone by March 12th:
+By the end of the 8th week, we should have the complete world, minus textures and pretty colors, in Unity and all pertanent scripts done.
+
+13th to 15th: Test how everything is interacting.
+
+Final milestone by April 6th: All textures and artwork in the game, animations finished and implemented.
+
+Week 13: Game run throughs, and final polish.

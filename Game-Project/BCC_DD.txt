@@ -1,0 +1,72 @@
+Ken Haney
+Philip Hahs
+CS489 Game Project
+Banana Cannon Commando
+
+Introduction:
+Banana Cannon Commando is a 3D action adventure 3rd person shooter where the player fights off zombie fruit through 
+multiple dungeons to find 3 keys to unlock the final boss dungeon and save fruitopia from the evil Dr. Rotten. The 
+game will play on the pc only. The game world will contain a main hub world with 3 mini dungeons and a main boss 
+dungeon. The player will obtain a new weapon at the end of each dungeon that can be used to unlock the barriers on 
+the final door. The first level will consist of a maze like orchard full of frombie creatures that used to be oranges 
+and apples. The second level will involve the town’s supermarket that will introduce tomato frombies. The third level 
+will be a vegetable garden where enemies spawn and attack the player until they and the final boss are dead. The final 
+dungeon is a fruit cake castle that will test the player’s skill with all the weapons he has acquired to defeat the evil 
+Dr. Rotten in the final boss room. 
+
+Background:
+The game Banana Cannon Commando will be built on the Unity Engine with 3D visuals in C# and Java Script code. The concept 
+art for the main protagonist, enemies, bosses, and non-playable characters will be drawn by Philip Hahs using Inkscape 
+version 0.91. The map level design will be developed by Ken Haney, which will include the background objects and scenery. 
+All animations will be crafted by Philip Hahs and Ken Haney. The music background for each level will be either from 
+non-royalty music by various artists or Philip Hahs. The music will be light hearted and set the atmosphere for each level. 
+
+Description:
+As the main protagonist, you will play as a banana commando wielding a herbicide cannon to shoot and fight off infected fruit 
+zombies called frombies. Your peaceful village Fruitopia is under attack by Dr. Rotten who has experimented on the Fruitopian 
+villagers turning them into frombies. He has also developed a serum that has turned some of the frombies into froids, which are 
+frombies on steroids. Dr. Rotten has locked himself in his giant fruit cake castle, and the only way to get to him is to venture 
+through multiple levels and defeat his evil boss minions and acquire their gun mods. These gun mods can be used as keys to unlock 
+the next level area as well as the castle gate that requires all 4 gun mod keys to open. 
+
+In the first level called The Orchard, you will be holding your main weapon the herbi-cannon. This cannon will shoot your basic three
+burst rounds at enemies. The main enemies in this level will be apple and orange frombies with 1-2 froids and a super froid boss at 
+the end. The froid boss will be a mutated half orange half apple. You will have to clear out the main zones of any and all enemies 
+that you see to obtain lives and ammo. The main boss will be waiting in the last area waiting to smash you with his fists of thunder. 
+Defeating the boss will give you a shotgun weapon that will unlock the chain that locks the next level. 
+
+In the second level named The Supermarket, you will explore the torn down supermarket where frombies are wreaking havoc on innocent 
+Fruitopians. You will need to kill all the enemy frombies that now include tomato frombies before going to the second floor. More 
+frombies are tearing up the supermarket including the suicide grape frombies that will charge at you and explode. You will have to 
+defeat them all before heading the third floor boss area where u will face a super froid boss tomato that will spray tomato acid on 
+the ground for you to avoid. Defeating the Macho-mato will unlock a new weapon mod, the Egg-splode mode, to unlock the next area. 
+This weapon will fire rotten eggs that will unleash a gas odor destroying the barrier to the next level. 
+
+In the third level titled The Vegetable Garden, you will be pitted against oncoming enemies coming off screen and be prompted when 
+you can proceed to the next area. You can destroy some of the environment with the egg-splode mod to navigate around the map more 
+easily. This new zone will introduce the rolling watermelon frombies. They will roll at you from off screen until you shoot them down. 
+The final super froid boss will be a giant watermelon that rolls across the screen while you dodge and shoot suicide grapes. Once you 
+have defeated the boss you will receive the final weapon the pellet nozzle that fires small pellets at the enemies. 
+
+In the final level known as The Giant Fruit Cake Castle, you will have to navigate through three floors of fruit cake covered walls to 
+reach Dr. Rotten’s lab. The first floor will have various switches to open doors that will lead to the next level. Here you will have 
+to face off against all basic enemy frombies as well as mini froid bosses. The second level will repeat the first level in objectives, 
+but will be redesigned accordingly. In the main boss room you will finally meet Dr. Evil, who is a giant worm that hides inside frombies 
+moving them around like puppets. You will have to dodge his tail whip attack where he may fling a suicide grape your way. After defeating 
+Dr. Rotten, the village of Fruitopia will be safe to rebuild all the damage that has been done as the banana commando enjoys a nice well 
+deserved break lying on a beach chair under an umbrella in the sun sipping on carrot juice. 
+
+Key Features:
+-Single Player Campaign
+-Multiple Levels: Fruitopia Village, The Orchard, The Supermarket, The Vegetable Garden, The Giant Fruit Cake Castle
+-Multiple Enemies and Bosses: Frombies, Froids, Super Froid Bosses, and Dr. Rotten
+-Weapon Modes: Herbi-Cannon, Shotgun Rain, Egg-Splode mod, Pellet Nozzle
+
+Genre:
+Third person action adventure game
+
+Platform:
+Windows, Mac, Linux
+
+Concept Art:
+Under Construction

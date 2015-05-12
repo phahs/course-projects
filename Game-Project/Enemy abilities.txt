@@ -1,0 +1,5 @@
+Grape - run and explode in close proximity
+Watermelon - Rolling attack (one moves in a straight line) Hitting any object stuns it.
+Tomato - Punches (walks up to player first)
+Orange - Acid (citrus) type throw item thing
+Apple - Pew Pew lazers (IMMA FIRIN MAH LAZAR)
