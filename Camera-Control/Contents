@@ -1,0 +1,11 @@
+blinn_phong.frag.glsl - The fragment shader for the rendering program.
+blinn_phong.vert.glsl - The vertex shader for the rendering program.
+camera_control_glut.cpp - The main file that runs the program
+GLSLShader.h - Specifies classes for the vertex and fragment shaders
+glut_teapot.cpp - Holds the vertice information for the teapot and initializes two functions
+glut_teapot.h - Specifies two functions to create the teapot
+mathMatVec.cpp - Initializes functions dealing with vector math
+mathMatVec.h - Specifies vector math functions
+README.tst - Summarizes what about the progam works and what does not work
+transformations.cpp - Initializes functions for transforming the camera
+transformations.h - Specifies functions for transforming the camera
