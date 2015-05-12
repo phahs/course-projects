@@ -1,1 +1,12 @@
-lots of stuff
+data - holds two .ply files that contain vertice information for the models
+BoundingVolume.h - Specifications and implementations for the bounding volumes and related functions
+Face.h - Specifications for the storing the face of each polygon
+FragShader.frag - A fragment shader I made using the Blinn illumination model
+GLSLShader.h - Specifies classes for the vertex and fragment shaders
+intersection.h - Specifies and initializes functions pertaining to determining if an intersection occurs between a ray and a sphere
+main.cpp - The main file that runs the program
+Model.h - Specifications for storing the models and implements related functions
+transformations.cpp - Initializes functions for transforming the camera
+transformations.h - Specifies functions for transforming the camera
+Vertex.h - Specifications for the storing of every vertex of a model
+VertShader.vert - A vertex shader I made using the Blinn illumination model
