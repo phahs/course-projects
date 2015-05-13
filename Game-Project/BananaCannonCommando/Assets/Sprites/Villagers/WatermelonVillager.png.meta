@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 0db7df8e805525345a083bab28033e41
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WVleft
+    21300002: WVfrontleft
+    21300004: WVfront
+    21300006: WVbackleft
+    21300008: WVfrontright
+    21300010: WVback
+    21300012: WVbackright
+    21300014: WVright
+    21300016: WatermelonVillager_0
+    21300018: WatermelonVillager_1
+    21300020: WatermelonVillager_2
+    21300022: WatermelonVillager_3
+    21300024: WatermelonVillager_4
+    21300026: WatermelonVillager_5
+    21300028: WatermelonVillager_6
+    21300030: WatermelonVillager_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WatermelonVillager_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 359
+        width: 236
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WatermelonVillager_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 359
+        width: 237
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WatermelonVillager_2
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 359
+        width: 237
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WatermelonVillager_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 166
+        width: 156
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WatermelonVillager_4
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 166
+        width: 156
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WatermelonVillager_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 237
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WatermelonVillager_6
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 236
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WatermelonVillager_7
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 236
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

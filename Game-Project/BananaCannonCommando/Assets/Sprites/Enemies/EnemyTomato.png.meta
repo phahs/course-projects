@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: c4f083e2eb1cf284dbfeffe254895354
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EnemyTomato_0
+    21300002: EnemyTomato_1
+    21300004: EnemyTomato_2
+    21300006: EnemyTomato_3
+    21300008: EnemyTomato_4
+    21300010: EnemyTomato_5
+    21300012: EnemyTomato_6
+    21300014: EnemyTomato_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: EnemyTomato_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 264
+        width: 202
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyTomato_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 260
+        width: 226
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyTomato_2
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 264
+        width: 202
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyTomato_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 125
+        width: 150
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyTomato_4
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 126
+        width: 150
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyTomato_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 201
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyTomato_6
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 226
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyTomato_7
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 4
+        width: 201
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

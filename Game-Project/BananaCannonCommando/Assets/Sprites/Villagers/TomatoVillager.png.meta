@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: d99ef7b5b5b6cf14386e39e1ff500b69
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TVleft
+    21300002: TVfrontleft
+    21300004: TVfront
+    21300006: TVbackleft
+    21300008: TVfrontright
+    21300010: TVback
+    21300012: TVbackright
+    21300014: TVright
+    21300016: TomatoVillager_0
+    21300018: TomatoVillager_1
+    21300020: TomatoVillager_2
+    21300022: TomatoVillager_3
+    21300024: TomatoVillager_4
+    21300026: TomatoVillager_5
+    21300028: TomatoVillager_6
+    21300030: TomatoVillager_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TomatoVillager_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 290
+        width: 201
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TomatoVillager_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 290
+        width: 226
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TomatoVillager_2
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 290
+        width: 202
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TomatoVillager_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 136
+        width: 150
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TomatoVillager_4
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 125
+        width: 150
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TomatoVillager_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 201
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TomatoVillager_6
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2
+        width: 226
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TomatoVillager_7
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 201
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,8 @@
+Hello, thanks for downloading this model. If you open the scene file in
+maya and the scene objects are black, it is because the textures have broken
+file links. To fix this problem just go into the hypershade menu and reload
+the textures. If this doesn't work, go and source the texture address in the
+texture file provided. Thanks again and be sure to rate this model on turbo
+squid.
+
+p.s: This model was made in Maya 2008 and may not open in older versions.

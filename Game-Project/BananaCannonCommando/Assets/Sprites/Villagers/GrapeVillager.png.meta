@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: aa3a5edfddc451749af2399048eb1301
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GVbackleft
+    21300002: GVfrontleftright
+    21300004: GVfrontright
+    21300006: GVback
+    21300008: GVbackright
+    21300010: GVright
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GVbackleft
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 241
+        height: 282
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GVfrontleftright
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 295
+        width: 242
+        height: 282
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GVfrontright
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 286
+        width: 241
+        height: 282
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GVback
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 246
+        height: 282
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GVbackright
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 0
+        width: 247
+        height: 282
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GVright
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 0
+        width: 241
+        height: 282
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

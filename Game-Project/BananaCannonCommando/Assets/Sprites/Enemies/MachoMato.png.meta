@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 79379e586a2c84547a60154d7c44247b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MachoMato_0
+    21300002: MachoMato_1
+    21300004: MachoMato_2
+    21300006: MachoMato_3
+    21300008: MachoMato_4
+    21300010: MachoMato_5
+    21300012: MachoMato_6
+    21300014: MachoMato_7
+    21300016: MachoMato_8
+    21300018: MachoMato_9
+    21300020: MachoMato_10
+    21300022: MachoMato_11
+    21300024: MachoMato_12
+    21300026: MachoMato_13
+    21300028: MachoMato_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MachoMato_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 243
+        width: 202
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MachoMato_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 239
+        width: 225
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MachoMato_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 243
+        width: 201
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MachoMato_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 106
+        width: 149
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MachoMato_4
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 105
+        width: 149
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MachoMato_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 201
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MachoMato_6
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 225
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MachoMato_7
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 3
+        width: 202
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: 87b321dc26142f44d916e8a02c97e8ae
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bottom_hinge
+    100002: Cylinder
+    100004: door_handle
+    100006: Empty
+    100008: Frontpanel
+    100010: interiorlamp
+    100012: lamphousing
+    100014: lighting1
+    100016: lighting2
+    100018: panelhandle
+    100020: sign
+    100022: sign_001
+    100024: tardis
+    100026: //RootNode
+    100028: top_hinge
+    100030: toplamp
+    100032: windows
+    400000: bottom_hinge
+    400002: Cylinder
+    400004: door_handle
+    400006: Empty
+    400008: Frontpanel
+    400010: interiorlamp
+    400012: lamphousing
+    400014: lighting1
+    400016: lighting2
+    400018: panelhandle
+    400020: sign
+    400022: sign_001
+    400024: tardis
+    400026: //RootNode
+    400028: top_hinge
+    400030: toplamp
+    400032: windows
+    2300000: bottom_hinge
+    2300002: Cylinder
+    2300004: door_handle
+    2300006: Frontpanel
+    2300008: interiorlamp
+    2300010: lamphousing
+    2300012: lighting1
+    2300014: lighting2
+    2300016: panelhandle
+    2300018: sign
+    2300020: sign_001
+    2300022: tardis
+    2300024: top_hinge
+    2300026: toplamp
+    2300028: windows
+    3300000: bottom_hinge
+    3300002: Cylinder
+    3300004: door_handle
+    3300006: Frontpanel
+    3300008: interiorlamp
+    3300010: lamphousing
+    3300012: lighting1
+    3300014: lighting2
+    3300016: panelhandle
+    3300018: sign
+    3300020: sign_001
+    3300022: tardis
+    3300024: top_hinge
+    3300026: toplamp
+    3300028: windows
+    4300000: lighting2
+    4300002: lighting1
+    4300004: tardis
+    4300006: panelhandle
+    4300008: door_handle
+    4300010: Cylinder
+    4300012: bottom_hinge
+    4300014: top_hinge
+    4300016: Frontpanel
+    4300018: interiorlamp
+    4300020: toplamp
+    4300022: lamphousing
+    4300024: sign
+    4300026: windows
+    4300028: sign_001
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
