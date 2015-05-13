@@ -1,6 +1,6 @@
 Artwork - Folder containing concept art and finished sprites
 Music - Folder containing the music featured in the game
-Unity build - Folder containing all of the Unity specific information, including but not limited to the different scenes and all of the scripts
+Unity build - (not included as the files are too big) Folder containing all of the Unity specific information, including but not limited to the different scenes and all of the scripts
 BCC_DD.txt - The design document that explains the original goals for the game
 developmentlog.txt - The development log that tracks the progress of the game week by week
 Enemy abilities.txt - A record of a generic style of attack for each enemy
