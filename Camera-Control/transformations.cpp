@@ -288,8 +288,8 @@ void myRotatef(GLfloat *matrix,
 			rotationMatrix[i + 12] = 1;
 		}
 	}
-	printf("rotation matrix:\n");
-	printMat(rotationMatrix);
+//	printf("rotation matrix:\n");
+//	printMat(rotationMatrix);
 	// temp goes down each column, while rotate goes across each row
 	// column 0
 	matrix[0] = tempMatrix[0] * rotationMatrix[0] + tempMatrix[4] * rotationMatrix[1] + tempMatrix[8] * rotationMatrix[2] + tempMatrix[12] * rotationMatrix[3];

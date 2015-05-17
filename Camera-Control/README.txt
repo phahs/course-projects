@@ -14,6 +14,8 @@ rotation of the camera which distorts the teapot. The farther the y coordinate o
 in line with the global x vector will result in greater distortion. After the distortion begins it is
 difficult to tell if further calls to rotateCameraUp() will display the proper rotation.
 
+EDIT: fixed all distortions to the teapot and program is now working as desired.
+
 Using OpenGL a camera is set to view a teapot floating in space. When either the up, down, left, or right
 arrow buttons are pushed, the camera moves 5 degrees in that direction to the effect of being able to view
 the teapot at any angle from any axis.
