@@ -12,6 +12,6 @@ mine.vert - A vertex shader I made using the Blinn illumination model
 myGouraud.frag - A fragment shader I made using the Gouraud illumination model
 myGouraud.vert - A vertex shader I made using the Gouraud illumination model
 README.txt - Summarizes what about the progam works and what does not work
-transformations.cpp - Initializes functions for transforming the camera
-transformations.h - Specifies functions for transforming the camera
+transformations.cpp - Initializes functions for transforming the camera and teapots
+transformations.h - Specifies functions for transforming the camera and teapots
 two_shaders_glut.cpp - The main file that runs the program
