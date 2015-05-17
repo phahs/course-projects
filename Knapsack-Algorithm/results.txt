@@ -1,0 +1,16 @@
+debianutils 90 128329
+libgcc1 46 128327
+debconf 168 121503
+grep 595 121426
+gzip 142 121346
+sed 261 121220
+lsb-base 26 121121
+sysv-rc 80 121092
+sysvinit-utils 116 121078
+base-files 65 121072
+initscripts 93 121037
+libselinux1 109 120918
+cron 120 120872
+base-passwd 49 120856
+total size = 1960 total votes = 1710197
+elapsed time t = 57.22007312178385
