@@ -1,0 +1,3 @@
+packages.txt - A list of Debian packages with the name of the package, the number of votes the package attained, and the size of the package
+Proj_2.py - The program that looks through the list of packages and, using a knapsack algorithm, chooses the best set of packages
+results.txt - file that the best list of packages is written to
